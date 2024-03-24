@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset-style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tip calculator</title>
+</head>
+<body>
+    <section>
+        <div class="contenedor">
+            <div class="letras-grandes">
+                <h2 class="titulo-contenedor">Calculador de propinas</h2>
+                <p>Ingresa el monto de consumo y el porcentage de propina</p>
+            </div>
+
+            <div class="inputs">
+                <label for="amount">Consumo:</label>
+                <input type="number" id="amount" class="text-input">
+
+                <label for="tip-porcentage">% de Propina:</label>
+                <input type="number" id="tip-porcentage" class="text-input">
+            </div>
+
+            <div class="action">
+                <button onclick="optenerTotal()";>Optener total</button>
+            </div>
+
+            <div class="total">
+                <p>Total:<b class="totalMasTip" id="montoDePago"></b></p>
+            </div>
+                
+        </div>
+    </section>
+
+    <script src="./tip-calculator.js"></script>
+
+</body>
+</html>

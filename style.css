@@ -1,0 +1,85 @@
+body {
+    background: #eeeee4;
+
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letras-grandes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titulo-contenedor{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 2%;
+}
+.contenedor{
+    background:#E9f3fa;
+    width: 38em;
+    height: 22em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    border-radius: 15px;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.2);
+}
+.letras-grandes>p {
+    margin-left: 2%;
+    margin-top: 1em;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputs>label{
+    margin-left: 5%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-input{
+    font-size: 15px;
+    width: 95%;
+    height: 20%;
+    margin-top: 8px;
+    margin-bottom: 5%;    
+    margin-left: 5%;
+}
+.action {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.action>button{
+    margin-left: 4.5%;
+    width: 30%;
+    height: 30px;
+    border: none;
+    background: #2a92cf;
+    color: #ffffff ;
+    cursor: pointer;
+
+}
+.action>button:hover{
+    background: #2a72cf;
+}
+.action>button:active{
+    transform:scale(1.1);
+}
+.total>p{
+    margin-left: 27px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.total b{
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
